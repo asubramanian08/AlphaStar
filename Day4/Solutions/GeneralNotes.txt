@@ -1,3 +1,8 @@
+jamboard links:
+https://jamboard.google.com/d/19dhe2MYMXQgD_GuAf_TzY7Y_wXDSYc7lbq1noxUJfXo/edit?usp=sharing
+https://jamboard.google.com/d/1y8uz1_K22mm_9nos4aNlHoPzLSil2lp2939JO7A-vq8/edit?usp=sharing
+
+
 Bessie Slows Down
 
 If we knew the order of the queries, the problem just becomes some basic algebra, updating the distance, 

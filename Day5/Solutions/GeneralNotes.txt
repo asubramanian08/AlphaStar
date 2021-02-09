@@ -1,3 +1,8 @@
+jamboard links:
+https://jamboard.google.com/d/1WAcgWBF5I1W2scOfODnZzasonecVwCUfnJSXQ4dbkkI/edit?usp=sharing
+https://jamboard.google.com/d/1NbI69192Tn6rq8v2n5bMQ53DLdHNzBtLfYrSo3Iw4XY/edit?usp=sharing
+
+
 Haywire
 
 Since the bounds for N are very small, we can mostly just brute force this problem. The way we'd 
@@ -56,3 +61,11 @@ for all the queries, we check whether the lowest ancestor with the desired milk 
 LCA of the query's two endpoints. We do so by checking whether it is an ancestor of the other endpoint--if 
 it's not then, it must be on the path between the two, and if it is, we just have to check if it's the LCA 
 which is the only common ancestor on the path between the two.
+
+Balanced Cow Breeds
+
+For this problem, it's easier to think of it in a 3D DP solution where DP[i][j][k] represents the total number of 
+ways to use the first i parentheses with j unmatched G's and k unmatched H's. In this case DP[0][0][0] will be 
+our base case. Then, we add the value of DP[i][j][k] to DP[i+1][j+1][k] and DP[i+1][j][k+1] if we have an open 
+parenthesis and DP[i+1][j-1][k] and DP[i+1][j][k-1] if have a close one. We then also realize that k can be 
+uniquely determined from i,j, and the input so we don't need that dimension, giving us an O(N^2) algorithm.

@@ -1,6 +1,4 @@
-Welcome to the course CS44 (Gold Booster) which covers a variety of topics regarding USACO Gold. 
-In this course, you’re expected to know Silver topics and be comfortable with solving medium to hard 
-Silver problems to effectively solve these Gold Problems. Today, we had problems with varying difficulty.
+jamboard link: https://jamboard.google.com/d/1a4gVvpynNxT4Vkgjwm3UNeYPxIf54eHteUbQ1WCBzwk/edit?usp=sharing
 
 
 Haybale Feast
